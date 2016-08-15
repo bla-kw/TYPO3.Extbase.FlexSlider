@@ -1,2 +1,2 @@
 script=Resources/Public/Js/jquery.flexslider-min.js
-components=jQuery,Core
+components=jQuery,Core,MouseWheel,Easing

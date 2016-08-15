@@ -65,21 +65,31 @@ Install via Extension Manager as usual.
 				# String: Select your animation type, "fade" or "slide"
 			animation = fade
 				# String: Select the sliding direction, "horizontal" or "vertical"
-			slideDirection = horizontal
+			direction = horizontal
+				# Boolean: Will reverse the animation direction of the slider
+			reverse = 0
 				# Boolean: Animate slider automatically
 			slideshow = 0
 				# Integer: Set the speed of the slideshow cycling, in milliseconds
 			slideshowSpeed = 7000
 				# Integer: Set the speed of animations, in milliseconds
-			animationDuration = 600
+			animationSpeed = 600
+				# Boolean: Allows for smooth height transitions between slides
+			smoothHeight = 0
+				# Integer: Set the slide to start at, count from 0
+			startAt =
+				# Integer: Will delay the initial slideshow of a slider, in milliseconds
+			initDelay =
 				# Boolean: Display control navigation
 			controlNav = 1
 				# Boolean: Create navigation for previous/next navigation? (true/false)
 			directionNav = 1
 				# Boolean: Allow slider navigating via keyboard left/right keys
-			keyboardNav = 1
+			keyboard = 1
 				# Boolean: Allow slider navigating via mousewheel
 			mousewheel = 0
+				# Boolean: Allow slider navigation via touch swipe
+			touch = 0
 				# Boolean: Create pause/play dynamic element
 			pausePlay = 0
 				# Boolean: Randomize slide order
